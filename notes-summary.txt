@@ -1,0 +1,17 @@
+1. Definition of activations.
+2. Sigmoid.
+3. Why sigmoid probably sucks.
+4. Tanh activations.
+5. Why tanh sucks.
+6. ReLU
+7. Pros and cons of ReLU
+8. (Dying ReLU problem)
+9. LeakyReLU as solving this 
+problem 
+10. ELU Definition and Why
+11. Maxout and why
+12. Mish and why
+13. Some mish alchemy
+14. Mish vs depth
+15. Gradient flow (hints to 
+further dicussions)
