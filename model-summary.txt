@@ -1,0 +1,40 @@
+Model: "sequential_20"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ sequential_17 (Sequential)  (None, 32, 32, 96)        60928     
+                                                                 
+ zero_padding2d_6 (ZeroPaddi  (None, 34, 34, 96)       0         
+ ng2D)                                                           
+                                                                 
+ max_pooling2d_14 (MaxPoolin  (None, 16, 16, 96)       0         
+ g2D)                                                            
+                                                                 
+ dropout_3 (Dropout)         (None, 16, 16, 96)        0         
+                                                                 
+ sequential_18 (Sequential)  (None, 16, 16, 192)       535104    
+                                                                 
+ zero_padding2d_8 (ZeroPaddi  (None, 18, 18, 192)      0         
+ ng2D)                                                           
+                                                                 
+ average_pooling2d_2 (Averag  (None, 8, 8, 192)        0         
+ ePooling2D)                                                     
+                                                                 
+ dropout_4 (Dropout)         (None, 8, 8, 192)         0         
+                                                                 
+ sequential_19 (Sequential)  (None, 8, 8, 10)          370954    
+                                                                 
+ average_pooling2d_3 (Averag  (None, 1, 1, 10)         0         
+ ePooling2D)                                                     
+                                                                 
+ flatten_2 (Flatten)         (None, 10)                0         
+                                                                 
+ softmax_1 (Softmax)         (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 966,986
+Trainable params: 966,986
+Non-trainable params: 0
+_________________________________________________________________
+TensorShape([256, 10])
+[0.100705795 0.0994836837 0.100100383 ... 0.0993147716 0.0995706469 0.10108199]
