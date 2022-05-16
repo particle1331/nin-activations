@@ -9,9 +9,10 @@
 9. LeakyReLU as solving this 
 problem 
 10. ELU Definition and Why
-11. Maxout and why
-12. Mish and why
-13. Some mish alchemy
-14. Mish vs depth
+12. Swish and why
+13. Some Swish alchemy
+14. Swish vs depth
+
+
 15. Gradient flow (hints to 
 further dicussions)
